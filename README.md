@@ -19,7 +19,7 @@ To recover missed outpatient slots ahead of time, CareLoop should trigger target
 
 ## Model & Threshold
 
-* **Chosen Model:** `[CHOSEN_MODEL, e.g., Logistic Regression / Gradient Boosting / Random Forest]`
+* **Chosen Model:** `[CHOSEN_MODEL, e.g., Logistic Regression / Random Forest]`
 * **Why Chosen:** `[Explain briefly, e.g., strong ROC-AUC performance with interpretable feature behavior and reliable probability calibration for ranking early-stage appointment risk]`
 * **Test ROC-AUC:** `[AUC_SCORE, e.g., 0.XX]`
 * **Decision Threshold:** `[THRESHOLD, e.g., 0.XX]` (chosen to balance catching high-risk no-shows against front-desk/call-centre outreach capacity)
