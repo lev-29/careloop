@@ -1,6 +1,6 @@
 [# careloop
 From raw bookings to a risk model and an AI-assisted follow-up review
-](https://github.com/<your-username>/<your-repo-name>
+](https://github.com/lev-29/careloop
 
 # CareLoop Clinics — No-Show Guard
 
