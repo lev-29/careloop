@@ -8,8 +8,8 @@ From raw bookings to a risk model and an AI-assisted follow-up review across Car
 
 ## Summary
 
-1. **Data Ingestion & Cleaning (Part 1):** Cleaned raw booking and clinic data into a standardized, non-null table (`appointments_clean.csv`), logged malformed/rejected records (`rejected_rows.json`), enriched clinic records (`clinics_enriched.csv`), and generated SQL load statements (`load_data.sql`).
-2. **SQL Analytics (Part 2):** Queried cleaned booking and clinic tables in `02_queries.sql` to pinpoint no-show patterns across clinics, cities, channels, and lead times, documenting duplicate-key constraint behavior.
+1. **Data Ingestion & Cleaning (Part 1):** Cleaned raw booking and clinic data into a standardized table (`appointments_clean.csv`), logged rejected records (`rejected_rows.json`), enriched clinic records (`clinics_enriched.csv`), and generated SQL load statements (`load_data.sql`).
+2. **SQL Analytics (Part 2):** Queried cleaned booking and clinic tables in `02_queries.sql` for no-show patterns across clinics, cities, channels, and lead times, documenting duplicate-key constraint behavior.
 3. **No-Show Risk Modeling (Part 3):** Trained and evaluated early-warning risk models (`03_model.ipynb`) using pre-appointment booking attributes and exported test-set risk scores (`test_risk_scores.csv`) for proactive outreach.
 4. **AI Follow-Up Note Structuring (Part 4):** Extracted structured root causes, confidence scores, summaries, and recommended actions from call-centre follow-up notes (`04_genai.ipynb` and `notes_analysed.csv`) using schema-validated LLM outputs and cross-tabulated reasons against reminder delivery.
 
